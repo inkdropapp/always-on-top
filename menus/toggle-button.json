@@ -1,6 +1,6 @@
 {
   "context-menu": {
-    ".CodeMirror": [
+    ".cm-editor": [
       {
         "label": "Toggle Always On Top",
         "command": "always-on-top:toggle"

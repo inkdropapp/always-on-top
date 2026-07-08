@@ -1,0 +1,17 @@
+/* `AppHeaderButton` supplies the button chrome (hover, `.active` background).
+   Only the icon's active treatment is specific to this plugin. The `.ui` class
+   is matched to outrank the app's own `.ui.app-header-button` color rule. */
+.ui.always-on-top-button {
+  svg {
+    overflow: visible;
+    stroke-width: 1.5px;
+  }
+
+  &.active {
+    color: var(--primary-color);
+
+    svg {
+      stroke-width: 3px;
+    }
+  }
+}
